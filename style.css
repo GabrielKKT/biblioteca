@@ -53,7 +53,8 @@ nav{
 }
 
 .all_livro {
-  padding: 2%;
+  padding: 15px;
+  
   display: grid;
   grid-template-columns: 2fr 5fr;
   grid-template-rows: 2fr 15fr 1fr;
@@ -68,6 +69,8 @@ nav{
 }
 
 .container_img_livro {
+  max-width: 200px;
+  
   grid-area: img;
   display: flex;
   align-items: center;
